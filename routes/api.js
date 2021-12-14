@@ -1,15 +1,3 @@
-// Jika ada bug / eror mohon maklumi om , ini cuma latihan buat sy untuk belajar dikit" soal programing
-// Gada reupload" 😏
-// Klo mau colong fitur, jgn asal colong bodoh ntr api eror
-
-// Thanks to ( jgn di hapus jamet)
-/*
-<p> Eka Danuarta</p>
-<p> Ojan</p>
-<p> Farhan</p>
-<p> ZeeoneOfc </p>
-<p> ALL HUMAN</p>
-*/
 __path = process.cwd()
 
 //var aexm = require('@lolikillers/aexm-api');
@@ -34,8 +22,8 @@ var cheerio = require('cheerio');
 var request = require('request');
 var fs = require('fs');
 var router  = express.Router();
-var creator = 'ZeeoneOfc' // ubah jadi nama lu
-const listkey = ["Alphabot","Zeeone","ZeeoneOfc"]; // ubah apikey nya, tambah aja klo mau
+var creator = 'Nurcahya Randovlsky' // ubah jadi nama lu
+const listkey = ["SCRLCXNR"]; // ubah apikey nya, tambah aja klo mau
 
 var { otakudesu, covid, ongoing, komiku, tebakgambar, surah, sholat, lirik, chara,wattpad, playstore, linkwa, pinterest ,igdl,igstory, igstalk,twitter,fbdown,youtube,ttdownloader} = require(__path + '/lib/scrape.js');
 var { color, bgcolor } = require(__path + '/lib/color.js');
@@ -293,7 +281,7 @@ router.get('/cecan/malaysia', async (req, res, next) => {
         var result = data[Math.floor(Math.random() * data.length)];
         var buff = result.url
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  buff
              })
          })
@@ -616,7 +604,7 @@ router.get('/download/ytsearch', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -639,7 +627,7 @@ router.get('/download/ytmp4', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -663,7 +651,7 @@ router.get('/lk21/search', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -685,7 +673,7 @@ router.get('/lk21/terbaru', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -707,7 +695,7 @@ router.get('/lk21/comingsoon', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -729,7 +717,7 @@ router.get('/lk21/tvseries', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -752,7 +740,7 @@ router.get('/lk21/year', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -775,7 +763,7 @@ router.get('/lk21/country', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -798,7 +786,7 @@ router.get('/lk21/genre', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -823,7 +811,7 @@ router.get('/filmapik/search', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -846,7 +834,7 @@ router.get('/filmapik/kategori', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -869,7 +857,7 @@ router.get('/filmapik/play', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -891,7 +879,7 @@ router.get('/filmapik/terbaru', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -916,7 +904,7 @@ router.get('/news/cnn', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -939,7 +927,7 @@ router.get('/news/cnbc', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -962,7 +950,7 @@ router.get('/news/republika', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -985,7 +973,7 @@ router.get('/news/tempo', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -1008,7 +996,7 @@ router.get('/news/antara', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -1030,7 +1018,7 @@ router.get('/news/kumparan', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -2845,7 +2833,7 @@ router.get('/other/ghstalk', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
@@ -2868,7 +2856,7 @@ router.get('/other/repostalk', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'SCRLCXNR',
                  result
              })
          })
